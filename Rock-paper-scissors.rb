@@ -62,8 +62,8 @@ puts "相手は#{directions[computer_direction]}を向きました"
 puts "----------------"
 
 player_wins = (user_hand == 0 && computer_hand == 1) ||
-                     (user_hand == 1 && computer_hand == 2) ||
-                     (user_hand == 2 && computer_hand == 0)
+              (user_hand == 1 && computer_hand == 2) ||
+              (user_hand == 2 && computer_hand == 0)
 
 if player_wins
   if user_direction == computer_direction
